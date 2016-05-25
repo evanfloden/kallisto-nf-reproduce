@@ -36,7 +36,7 @@ Launch the kallisto bash pipeline script running the following command:
     ./kallisto-linux/kallisto-std.sh \
         data/raw_reads \
     	data/transcriptome/Homo_sapiens.GRCh38.rel79.cdna.all.fa  \
-      	data/experiment/hiseq_info.txt \
+      	data/exp_info/hiseq_info.txt \
       	results-linux
 
 ### Native Mac  
@@ -50,7 +50,7 @@ Launch the kallisto bash pipeline script running the following command:
     ./kallisto-mac/kallisto-std.sh \
         ../data/raw_reads \
         ../data/transcriptome/Homo_sapiens.GRCh38.rel79.cdna.all.fa  \
-        ../data/experiment/hiseq_info.txt \
+        ../data/exp_info/hiseq_info.txt \
         results-mac
 ### Nextflow (Mac & Linux)
 
